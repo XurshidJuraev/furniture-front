@@ -1,0 +1,109 @@
+/* body {
+    background-color: gray;
+    color: black;
+} */
+.allRest {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    /* margin-left: 50px; */
+    flex-wrap: wrap;
+}
+.allRest2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    /* margin-left: 50px; */
+    flex-wrap: wrap;
+}
+
+.rest {
+    width: 300px;
+    height: 450px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+
+
+  @media only screen and (max-width: 800px) {
+    .allRest {
+        width: 700px;
+    }
+    .alifBtn2 {
+        margin-left: 210px !important;
+        margin-bottom: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .allRest {
+        width: 300px;
+    }
+    .alifBtn2 {
+        margin-left: 28px !important;
+        margin-bottom: 10px;
+    }
+  }
+
+.bascket {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 4px #000;
+    width: 50px;
+    height: 50px;
+}
+
+.forma {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.rest2 {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.allNAeRest {
+    color: white;
+    padding-left: 40px;
+}
+
+.restName {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: -20px;
+}
+
+.inputbit {
+    background-color: white;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.alifBtn {
+    margin-left: 40px;
+}
+
+.restImg {
+    width: 300px;
+    height: 300px;
+}

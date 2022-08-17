@@ -1,0 +1,58 @@
+.border {
+    border: 3px solid #000;
+    border-radius: 3px;
+}
+
+body{
+    background-color: gray;
+}
+
+.allof{
+    margin-top: 300px;
+}
+
+.border1 {
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.frutinuti {
+    display: flex;
+    margin-left: 400px;
+    width: 500px;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: -300px;
+}
+
+.alifBtn2 {
+    margin-left: 500px;
+}
+.alifBtn3 {
+    margin-top: -20px;
+    margin-left: 90px;
+}
+
+.length {
+    border-radius: 30%;
+    background-color: red;
+}
+.length:hover {
+    border-radius: 30%;
+    color: white;
+    background-color: red;
+}
+
+@media only screen and (max-width: 400px) {
+    .allof{
+        margin-top: -30px;
+    }
+  }
+
+.fakeInput {
+    width: 204px;
+    /* height: 53px; */
+    background-color: #fff;
+    border-radius: 22px;
+    text-align: center;
+}

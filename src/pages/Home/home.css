@@ -1,0 +1,116 @@
+  .App {
+    display: flex;
+  }
+  
+  .headName {
+    text-align: center; 
+    margin-left: 280px;
+    margin-top: 130px;
+    width: 829px;
+    height: 75px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  
+  .headName:hover, .headAbout:hover, .es-name:hover {
+    color: orangered;
+    /* transition: all 0.3s ease-in; */
+  }
+  
+  .headName:active, .headAbout:active, .es-name:active {
+    color: #182035;
+    /* transition: all 0.3s ease-in; */
+  }
+  
+  .batn {
+    width: 120px;
+    height: 60px;
+    border: none;
+    background-color: #0000009d;
+    color: #FFFFFF;
+    border-radius: 20px;
+  }
+  
+  .batn:nth-child(1) {
+    margin-right: 20px;
+  }
+  
+  .batn:hover {
+    background-color: orangered;
+    color: #182035;
+  }
+  
+  .button {
+    margin-left: 260px;
+  }
+  
+  .tdn {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+  .headAbout {
+    width: 822px;
+    height: 62px;
+    margin-left: 280px;
+    margin-top: -20px;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+  }
+
+  /* .affa {
+    margin-left: 280px;
+  } */
+  .affa2 {
+    margin-left: 280px;
+  }
+  
+  .es-name {
+    width: 822px;
+    height: 62px;
+    margin-left: 280px;
+    margin-top: -20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .list {
+    width: 134px;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+    /* margin-top: 15px;
+    margin-bottom: 20px; */
+    height: 70px;
+    padding-top: 32px;
+  }
+  
+  .list:hover {
+    background-color: orangered;
+    /* transition: all 0.3s ease-in; */
+    /* border-radius: 20px; */
+    color: #0b0c0c;
+  }
+
+  .nmadr {
+    margin-top: 200px;
+    margin-left: -100px;
+  }
